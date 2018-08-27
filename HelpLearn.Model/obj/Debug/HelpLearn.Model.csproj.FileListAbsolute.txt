@@ -1,0 +1,4 @@
+E:\asp.net项目\HelpLearn\HelpLearn.Model\bin\Debug\HelpLearn.Model.dll
+E:\asp.net项目\HelpLearn\HelpLearn.Model\bin\Debug\HelpLearn.Model.pdb
+E:\asp.net项目\HelpLearn\HelpLearn.Model\obj\Debug\HelpLearn.Model.dll
+E:\asp.net项目\HelpLearn\HelpLearn.Model\obj\Debug\HelpLearn.Model.pdb

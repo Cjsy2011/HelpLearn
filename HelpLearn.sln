@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpLearn.DAL", "HelpLearn.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpLearn.Utilities", "HelpLearn.Utilities\HelpLearn.Utilities.csproj", "{6C37627A-961C-4800-8EC3-201E717F6A05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpLearn.Model", "HelpLearn.Model\HelpLearn.Model.csproj", "{92A1CC57-A117-4898-886A-6F4A0A5958B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{6C37627A-961C-4800-8EC3-201E717F6A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C37627A-961C-4800-8EC3-201E717F6A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C37627A-961C-4800-8EC3-201E717F6A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A1CC57-A117-4898-886A-6F4A0A5958B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A1CC57-A117-4898-886A-6F4A0A5958B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A1CC57-A117-4898-886A-6F4A0A5958B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A1CC57-A117-4898-886A-6F4A0A5958B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

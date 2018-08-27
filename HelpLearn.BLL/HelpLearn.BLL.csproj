@@ -40,8 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BActivities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HelpLearn.Factory\HelpLearn.Factory.csproj">
+      <Project>{9181152B-C31C-461D-9216-7537A0EC3C21}</Project>
+      <Name>HelpLearn.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelpLearn.IDAL\HelpLearn.IDAL.csproj">
+      <Project>{11E0BE4F-0912-4707-81DA-8C276E7B0BC7}</Project>
+      <Name>HelpLearn.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelpLearn.Model\HelpLearn.Model.csproj">
+      <Project>{92A1CC57-A117-4898-886A-6F4A0A5958B0}</Project>
+      <Name>HelpLearn.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\publicDLL\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,8 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DActivities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HelpLearn.IDAL\HelpLearn.IDAL.csproj">
+      <Project>{11E0BE4F-0912-4707-81DA-8C276E7B0BC7}</Project>
+      <Name>HelpLearn.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelpLearn.Model\HelpLearn.Model.csproj">
+      <Project>{92A1CC57-A117-4898-886A-6F4A0A5958B0}</Project>
+      <Name>HelpLearn.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelpLearn.Utilities\HelpLearn.Utilities.csproj">
+      <Project>{6C37627A-961C-4800-8EC3-201E717F6A05}</Project>
+      <Name>HelpLearn.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
